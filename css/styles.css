@@ -7,3 +7,60 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+/*BODY AND HTML STYLING*/
+
+html, body {
+ margin: 0;
+ font-family: 'Khula', sans-serif;
+}
+
+/*HEADER STYLING*/
+
+header {
+  background-color: lightblue;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#logo {
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  right: 87%;
+  top: 9%;
+  border: 2px solid black;
+}
+
+#shipping {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: white;
+
+}
+#page-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 120px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+
+}
+
+#nav {
+  width: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  text-align: right;
+
+}
+
+.nav-ico {
+  margin-right: 10%;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+}
