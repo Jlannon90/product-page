@@ -138,6 +138,9 @@ button {
   font-weight: bold;
 }
 
+button:hover {
+  cursor: pointer;
+}
 
 /*GALLERY STYLING*/
 
