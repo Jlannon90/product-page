@@ -152,12 +152,39 @@ button:hover {
   margin-right: 8%;
   width: 600px;
 }
+
 .gal-image {
   height: 100px;
   float: left;
   margin-left: 4%;
   margin-right: 4%;
 
+}
+
+.gal-image:last-of-type {
+  margin-left: 2%;
+}
+
+.gal-name {
+  float: left;
+  font-weight: bold;
+
+}
+
+.gal-name:first-of-type {
+  margin-left: 6%;
+}
+
+.gal-name:nth-of-type(2) {
+  margin-left: 12%;
+}
+
+.gal-name:nth-of-type(3) {
+  margin-left: 11%;
+}
+
+.gal-name:nth-of-type(4) {
+  margin-left: 13%;
 }
 
 /*ABOUT PRODUCT STYLING*/
