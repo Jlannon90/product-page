@@ -159,3 +159,75 @@ button:hover {
   margin-right: 4%;
 
 }
+
+/*ABOUT PRODUCT STYLING*/
+
+#about-product {
+  position: absolute;
+  bottom: 0;
+  top: 1300px;
+  text-align: center;
+  background-color: lightgray;
+  height: 400px;
+  width: 100%;
+}
+
+#description {
+  float: left;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#description p{
+  text-align: left;
+}
+
+#features {
+  float: right;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#features table {
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+table {
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  background-color: white;
+  border-collapse: collapse;
+
+}
+
+thead {
+  background-color: lightblue;
+  color: white;
+}
+
+tbody > tr > td {
+border: 5px solid lightblue;
+}
+
+td {
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 6px;
+}
+
+th {
+  text-align: center;
+}
+.checkmark {
+  height: 20px;
+}
